@@ -1,19 +1,15 @@
 import axios from 'axios';
-import { Constants } from './../constants/translate.constants';
-import { globalConfig } from './../constants/common.constants';
-import { ITranslateService, IAllLocalesResponse, ITranslateResponse, IAllLocalesData } from './../interfaces/translate.interface';
+import { DefLangKey } from '../constants/service.translate.constants';
+import { globalConfig } from '../constants/configs.constants';
+import { ITranslateService, IAllLocalesResponse, ITranslateResponse } from '../interfaces/service.translate.interface';
 
-class TranslateService implements ITranslateService {
-
-    key = Constants._ka;
-    locales = [];
-    translate = null;
-
-    T(key: string, ...params) {
+const TranslateService: ITranslateService =  {
+    key: DefLangKey._ka,
+    T(locales: ITranslateResponse[], key: string, ...params) {
         try {
             if (!key) return null;
             let parts = key.split('.');
-            let tData = this.translate;
+            let tData = locales;
 
             for (let part of parts) {
                 tData = tData[part];
@@ -29,21 +25,18 @@ class TranslateService implements ITranslateService {
         catch (e) {
             return "";
         }
-    }
-
-    Use = async(key: string) => {
+    },
+    Use: async(key: string):Promise<ITranslateResponse> => {
        return await axios.get<ITranslateResponse>(`src/assets/translate/${key}.json?v=${globalConfig.translate_Version}`).then(Response => {
-            this.translate = Response.data;
-            this.key = key;
-            return true;
+        TranslateService.key = key;
+            return Response.data;
         }).catch(() => {
-            return false;
+            return null;
         })
-    }
-
-    async FetchLocales() {
+    },
+    FetchLocales: async() => {
         return await axios.get<IAllLocalesResponse>(`${globalConfig.api_URL}api/public/allLocales`);
     }
 }
 
-export default new TranslateService();
+export default TranslateService;

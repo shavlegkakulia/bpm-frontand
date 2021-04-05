@@ -1,4 +1,4 @@
-import { IConfigConstants } from './../interfaces/constants.interface';
+import { IConfigConstants } from '../interfaces/configs.interface';
 
 declare const globalConfig: IConfigConstants;
 const _globalConfig = globalConfig;
