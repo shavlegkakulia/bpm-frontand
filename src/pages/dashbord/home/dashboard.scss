@@ -1,0 +1,87 @@
+.dashboard {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.dashboardLayout {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    max-width: 1400px;
+    margin: 0 auto;
+
+    .rightActions {
+      display: inline-flex;
+      align-items: center;
+
+      .langSwitch {
+        margin-left: 28px;
+        padding: 0px;
+        border: #F48678 2px solid;
+        border-radius: 12px;
+  
+        .langDropdown {
+          font-family: Helvetica-Bold;
+          line-height: 18px;
+          font-size: 16px;
+          display: inline-flex;
+          align-items: center;
+          color: #f48678;
+        }
+  
+        .dropdownMenu {
+          margin-top: 15px;
+          padding: 1.1880000000000002rem 1.8130000000000006rem !important;
+          .dropdownMenuItem {
+            padding: 18px;
+          }
+        }
+      }
+    }
+
+    .dropdownMenu {
+      .dropdownMenuItem {
+        .itemIcon {
+          margin-right: 24px;
+        }
+      }
+    }
+
+    .profileDropdown {
+      .uimg {
+        width: 48px;
+        height: 48px;
+        border-radius: 24px;
+        object-fit: cover;
+      }
+
+      .DownArrow {
+        margin-left: 12px;
+        path {
+          fill: #000000;
+        }
+      }
+    }
+
+    .logoItem {
+      text-decoration: none;
+    }
+
+    .mailItem {
+      font-family: Helvetica;
+      line-height: 18px;
+      font-size: 16px;
+      display: inline-flex;
+      align-items: center;
+      color: #000000;
+      text-decoration: none;
+
+      .mailLogo {
+        margin-right: 20px;
+      }
+    }
+  }
+}

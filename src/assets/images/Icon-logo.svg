@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="133" height="44.816" viewBox="0 0 133 44.816">
+  <g id="Group_235" data-name="Group 235" transform="translate(-327 -128.592)">
+    <text id="BPM" transform="translate(397 161.894)" fill="#f48678" font-size="28" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">BPM</tspan></text>
+    <path id="Heart" d="M5.074,6.074a13.91,13.91,0,0,0,0,19.672l21.07,21.07.145-.145.145.145L47.5,25.746A13.91,13.91,0,1,0,27.832,6.074l-.73.73a1.149,1.149,0,0,1-1.626,0l-.73-.73A13.91,13.91,0,0,0,5.074,6.074Z" transform="translate(326 126.592)" fill="#b098e6"/>
+    <g id="Group_19" data-name="Group 19" transform="translate(294.893 -98.606)">
+      <path id="fi_activity" d="M39.167,12H21.049l-3.375,9L10.925,3,7.551,12H-6.418" transform="translate(41.201 237)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <rect id="Rectangle_29" data-name="Rectangle 29" width="28" height="28" transform="translate(42 235)" fill="none"/>
+    </g>
+  </g>
+</svg>

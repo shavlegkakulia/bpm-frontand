@@ -1,13 +1,16 @@
-import { LOCALE_LOADING, FETCH_LOCALSE, FETCH_TRANSLATES } from './../constants/translate.constants';
-import { IState, IAction } from '../../interfaces/reducer.translate.interface';
+import { LOCALE_LOADING, FETCH_LOCALSE, FETCH_TRANSLATES, CHANGE_LOCALE } from './../constants/translate.constants';
+import { DefLangKey } from './../../constants/service.translate.constants';
+import { ITranslateState, IAction } from '../../interfaces/reducer.translate.interface';
 
-const initialState: IState = {
-    isLoading: false,
+
+const initialState: ITranslateState = {
+    isLoading: true,
     Locales: [],
-    Translates: []
+    Translates: [],
+    activeKey: DefLangKey._en
 }
 
-export function TranslateReducer (state: IState = initialState, action: IAction): IState {
+export function TranslateReducer (state: ITranslateState = initialState, action: IAction): ITranslateState {
     switch (action.type) {
         case LOCALE_LOADING:
             return {
@@ -20,6 +23,10 @@ export function TranslateReducer (state: IState = initialState, action: IAction)
         case FETCH_TRANSLATES: 
             return {
                 ...state, Translates: action.Translates
+            }
+        case CHANGE_LOCALE:
+            return {
+                ...state, activeKey: action.key
             }
         default:
             return {...state}

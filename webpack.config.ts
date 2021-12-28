@@ -35,7 +35,7 @@ function getPlugins(config, isProd, analyze) {
             minify: false
         }),
         new CopyWebpackPlugin([
-            { from: './src/assets/', to: './src/assets/', force: true }
+            { from: './src/assets/', to: './assets/', force: true }
         ])
     ];
     if (analyze) plugins.push(new BundleAnalyzerPlugin());

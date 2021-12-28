@@ -1,0 +1,544 @@
+body {
+  background-color: #f9f4f5;
+  margin: 0;
+  overflow-y: scroll;
+}
+
+@font-face {
+  font-family: Helvetica-Bold;
+  src: url(./../assets/fonts/Helvetica-Bold.ttf);
+}
+
+@font-face {
+  font-family: Helvetica-Oblique;
+  src: url(./../assets/fonts/Helvetica-Oblique.ttf);
+}
+
+@font-face {
+  font-family: Helvetica;
+  src: url(./../assets/fonts/Helvetica.ttf);
+}
+
+@font-face {
+  font-family: Helvetica-BoldOblique;
+  src: url(./../assets/fonts/Helvetica-BoldOblique.ttf);
+}
+/*
+@font-face {
+  font-family: HelveticaNeueLight;
+  src: url(./../assets/fonts/HelveticaNeueLight.otf);
+}
+
+@font-face {
+  font-family: HelveticaNeueMedium;
+  src: url(./../assets/fonts/HelveticaNeueMedium.otf);
+}
+
+@font-face {
+  font-family: HelveticaNeueRoman;
+  src: url(./../assets/fonts/HelveticaNeueRoman.otf);
+}
+
+@font-face {
+  font-family: HelveticaNeueThin;
+  src: url(./../assets/fonts/HelveticaNeueThin.otf);
+}
+*/
+.fa-eye path,
+.fa-eye-slash path {
+  fill: #2aa9b2;
+}
+
+::placeholder {
+  color: #000000;
+  opacity: 1;
+  font-family: Helvetica;
+  font-size: 16;
+}
+
+:-ms-input-placeholder {
+  color: #000000;
+  font-family: Helvetica;
+  font-size: 16;
+}
+
+::-ms-input-placeholder {
+  color: #000000;
+  font-family: Helvetica;
+  font-size: 16;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+.floatingWraper {
+  width: 100%;
+}
+.placeholder-label {
+  color: #000000;
+  font-family: Helvetica;
+  font-size: 16px;
+  position: absolute;
+  pointer-events: none;
+  left: 16px;
+  top: 12px;
+  transition: 0.2s ease all;
+}
+input:focus ~ .placeholder-label, input:not([value=""]) ~ .placeholder-label
+{
+  top: 3px;
+  bottom: 10px;
+  left: 15px;
+  font-size: 10px;
+  opacity: 1;
+}
+
+
+
+.simplebar-track.simplebar-vertical .simplebar-scrollbar:before {
+  background-image: linear-gradient(#F48678 , #F48678);
+}
+
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica-Bold;
+  line-height: 17px;
+  font-size: 14px;
+  background-color: #f48678;
+  color: #ffffff;
+  padding: 15.5px 0px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0px 10px 25px rgba(244, 134, 120, 60);
+  border: none;
+  cursor: pointer;
+  transition: all 1s, height 2s;
+
+  &:not(.disabled):hover {
+    background-color: #e36e5f;
+  }
+
+  &.disabled {
+    opacity: 0.5;
+  }
+
+  &.secondary {
+    background-color: #2AA9B2;
+    box-shadow: 0px 10px 25px #2AA9B260;
+
+    &:not(.disabled):hover {
+      background-color: #01919A;
+    }
+  }
+  
+  .loader {
+    width: 17px;
+  }
+}
+
+.inputBox {
+  position: relative;
+
+  .input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 14px;
+
+    .iconContent {
+      cursor: pointer;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    &.focused {
+      border: 1px solid #000000;
+    }
+
+    .Password {
+      line-height: 18px;
+      border: none;
+      width: 100%;
+
+      &:focus-visible {
+        outline: none;
+      }
+    }
+  }
+
+  &.last {
+    margin-bottom: 0px;
+  }
+  .input {
+    width: 100%;
+    border: 1px solid #2aa9b2;
+    border-radius: 12px;
+    padding: 14px 14px 8px 14px;
+    outline: none;
+
+    .input {
+      border: none;
+      padding: 0;
+      border-radius: 0;
+
+      &:focus-visible {
+        outline: none;
+        border: none;
+      }
+    }
+
+    &:focus-visible {
+      outline: none;
+      border: 1px solid #000000;
+    }
+  }
+
+  .errorMessage {
+    font-family: Helvetica;
+    line-height: 14px;
+    font-size: 10px;
+    color: #f48678;
+    margin-top: 5px;
+    margin-left: 14px;
+    position: absolute;
+  }
+}
+
+.d-none {
+  display: none;
+}
+
+/* The checkbox-container */
+.checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: Helvetica;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 24px;
+  width: 26px;
+  border-radius: 5px;
+  background-color: #eee;
+  border: 2px solid #f48678;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox-container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-container input:checked ~ .checkmark {
+  background-color: #F48678;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-container input:checked ~ .checkmark:after {
+  content: '';
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-container .checkmark:after {
+  content: '';
+  left: 6px;
+  top: 1px;
+  width: 10px;
+  height: 15px;
+  border: solid white 1px;
+  border-width: 0 4px 4px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.dropdownCover {
+  background-color: transparent !important;
+  border: transparent !important;
+
+  &:focus {
+    box-shadow: none !important;
+  }
+
+  &::after{
+    content: none !important;
+  }
+}
+
+.dropdownMenu {
+  background-color: #F48678 !important;
+  border-radius: 12px !important;
+  padding: 2.188rem 2.813rem !important; /*35px 45px;*/
+  min-width: auto !important;
+
+  .dropdownMenuItem {
+    background-color: #F48678 !important;
+    font-family: Helvetica;
+    line-height: 18px;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 13px 0px;
+    &:hover {
+      background-color: #F48678 !important;
+      font-family: Helvetica-Bold;
+    }
+  }
+}
+
+.errorWrapper {
+  background-color: #e36e5f;
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  left: 0;
+  top: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  transition: all 1s ease-in-out;
+
+  &.show {
+    top: 0px;
+  }
+}
+
+.landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  .container {
+    max-width: 1200px;
+    flex: 1;
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 85px;
+
+      .logoItem {
+        text-decoration: none;
+      }
+
+      .mailItem {
+        font-family: Helvetica;
+        line-height: 18px;
+        font-size: 16px;
+        display: inline-flex;
+        align-items: center;
+        color: #000000;
+        text-decoration: none;
+
+        .mailLogo {
+          margin-right: 20px;
+        }
+      }
+    }
+
+    .content {
+      flex: 1;
+      display: flex;
+      border-radius: 12px;
+      overflow: hidden;
+      .left,
+      .right {
+        flex: 2;
+      }
+
+      .left {
+        background-color: #f48678;
+        padding: 5vw 6vw;
+
+        .titleLogo {
+          font-family: Helvetica;
+          line-height: 3.9vw;
+          font-size: 3.1vw;
+          color: #ffffff;
+        }
+
+        .bigHurtBox {
+          margin-top: 110px;
+          display: flex;
+          justify-content: center;
+
+          .bigHurt {
+            max-width: 295px;
+            width: 100%;
+          }
+        }
+      }
+
+      .right {
+        background-color: #ffffff;
+        padding: 5vw 6vw;
+
+        .loginForm {
+          .loginTitle {
+            font-family: Helvetica-Bold;
+            line-height: 28px;
+            font-size: 24px;
+            color: #000000;
+            margin-bottom: 60px;
+          }
+
+          .form {
+            .inputBox {
+              position: relative;
+              margin-bottom: 36px;
+
+              &.last {
+                margin-bottom: 0px;
+              }
+         
+            }
+            .check-box {
+              margin-top: 28px;
+
+              .errorMessage {
+                font-family: Helvetica;
+                line-height: 14px;
+                font-size: 10px;
+                color: #f48678;
+                margin-top: 5px;
+                margin-left: 14px;
+                position: absolute;
+            }
+            }
+            .forgotPwdBox {
+              display: flex;
+              justify-content: flex-end;
+              .forgotPasword {
+                font-family: Helvetica;
+                line-height: 18px;
+                font-size: 16px;
+                color: #f48678;
+                margin-top: 25px;
+                display: inline-block;
+                text-decoration: none;
+                transition: all 1s, height 2s;
+
+                &:hover {
+                  color: #b93a29;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .footer {
+      padding: 36px 0px;
+      .copyright {
+        font-family: Helvetica;
+        line-height: 18px;
+        font-size: 16px;
+        color: #000000;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .landing {
+    .container {
+      .header {
+        height: 85px;
+
+        .logoItem {
+        }
+
+        .mailItem {
+          line-height: 18px;
+          font-size: 16px;
+
+          .mailLogo {
+          }
+        }
+      }
+
+      .content {
+        .left,
+        .right {
+        }
+
+        .left {
+          background-color: #f48678;
+          padding: 70px 60px;
+
+          .titleLogo {
+            font-size: 48px;
+            line-height: 60px;
+          }
+
+          .bigHurtBox {
+            margin-top: 110px;
+          }
+        }
+
+        .right {
+          padding: 70px 60px;
+
+          .loginForm {
+            .loginTitle {
+              font-family: HelveticaNeueBold;
+              line-height: 28px;
+              font-size: 24px;
+              color: #000000;
+            }
+          }
+        }
+      }
+
+      .footer {
+        .copyright {
+          line-height: 18px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
