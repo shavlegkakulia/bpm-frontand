@@ -1,0 +1,134 @@
+.InviteUser {
+  background-color: #ffffff;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 106px 0;
+
+  .form {
+    width: 423px;
+
+    .loginTitle {
+        font-family: Helvetica-Bold;
+        line-height: 28px;
+        font-size: 24px;
+        color: #000000;
+        margin-bottom: 48px;
+        text-align: center;
+      }
+
+      .description {
+        font-family: Helvetica;
+        line-height: 28px;
+        font-size: 24px;
+        color: #000000;
+        margin-bottom: 48px;
+        text-align: center;
+      }
+
+    .inputBox {
+      position: relative;
+      margin-bottom: 36px;
+
+      .pwd {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 13px 14px;
+
+        .iconContent {
+          cursor: pointer;
+          -webkit-touch-callout: none;
+          -webkit-user-select: none;
+          -khtml-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+        }
+
+        &.focused {
+          border: 1px solid #000000;
+        }
+
+        .Password {
+          line-height: 18px;
+          border: none;
+          width: 100%;
+
+          &:focus-visible {
+            outline: none;
+          }
+        }
+      }
+
+      &.last {
+        margin-bottom: 0px;
+      }
+      .input {
+        width: 100%;
+        border: 1px solid #2aa9b2;
+        border-radius: 12px;
+        outline: none;
+
+        .input {
+          border: none;
+          padding: 0;
+          border-radius: 0;
+
+          &:focus-visible {
+            outline: none;
+            border: none;
+          }
+        }
+
+        &:focus-visible {
+          outline: none;
+          border: 1px solid #000000;
+        }
+      }
+
+      .errorMessage {
+        font-family: Helvetica;
+        line-height: 14px;
+        font-size: 10px;
+        color: #f48678;
+        margin-top: 5px;
+        margin-left: 14px;
+        position: absolute;
+      }
+    }
+    .check-box {
+      margin-top: 28px;
+
+      .errorMessage {
+        font-family: Helvetica;
+        line-height: 14px;
+        font-size: 10px;
+        color: #f48678;
+        margin-top: 5px;
+        margin-left: 14px;
+        position: absolute;
+      }
+    }
+    .forgotPwdBox {
+      display: flex;
+      justify-content: flex-end;
+      .forgotPasword {
+        font-family: Helvetica;
+        line-height: 18px;
+        font-size: 16px;
+        color: #f48678;
+        margin-top: 25px;
+        display: inline-block;
+        text-decoration: none;
+        transition: all 1s, height 2s;
+
+        &:hover {
+          color: #b93a29;
+        }
+      }
+    }
+  }
+}

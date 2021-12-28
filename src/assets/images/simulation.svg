@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1540" height="450" viewBox="0 0 1540 450">
+  <defs>
+    <filter id="Rectangle_105" x="630" y="98" width="250" height="153" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#b9b9b9" flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_105-2" x="1269" y="64" width="250" height="154" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-color="#b9b9b9" flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_173" data-name="Group 173" transform="translate(-332 -115)">
+    <rect id="Rectangle_78" data-name="Rectangle 78" width="1540" height="450" rx="12" transform="translate(332 115)" fill="#fff"/>
+    <path id="Path_1044" data-name="Path 1044" d="M1647.573,794.01,218,794" transform="translate(190.008 -301.241)" fill="none" stroke="#eff3f9" stroke-width="1"/>
+    <path id="Path_1013" data-name="Path 1013" d="M207,676H1636.081" transform="translate(201.5 -437.78)" fill="none" stroke="#eff3f9" stroke-width="1"/>
+    <path id="Path_1021" data-name="Path 1021" d="M209.251,734.7H1638.539" transform="translate(199.249 -437.703)" fill="none" stroke="#eff3f9" stroke-width="1"/>
+    <path id="Path_1036" data-name="Path 1036" d="M209.251,734.7H1638.826" transform="translate(199.002 -311.275)" fill="none" stroke="#eff3f9" stroke-width="1"/>
+    <path id="Path_1087" data-name="Path 1087" d="M209.251,734.7h1429.08" transform="translate(199.249 -374.275)" fill="none" stroke="#eff3f9" stroke-width="1"/>
+    <path id="Path_1016" data-name="Path 1016" d="M361.856,676V929.748" transform="translate(294.279 -437.78)" fill="none" stroke="#eff3f9" stroke-width="1"/>
+    <path id="Path_1149" data-name="Path 1149" d="M361.856,676V930.3" transform="translate(46.644 -437.78)" fill="none" stroke="#eff3f9" stroke-width="1"/>
+    <path id="Path_1145" data-name="Path 1145" d="M361.856,676V929.748" transform="translate(487.895 -437.78)" fill="none" stroke="#eff3f9" stroke-width="1"/>
+    <path id="Path_1146" data-name="Path 1146" d="M361.856,676V929.748" transform="translate(679.783 -437.78)" fill="none" stroke="#eff3f9" stroke-width="1"/>
+    <path id="Path_1147" data-name="Path 1147" d="M361.856,676V929.748" transform="translate(873.4 -436.979)" fill="none" stroke="#eff3f9" stroke-width="1"/>
+    <path id="Path_1148" data-name="Path 1148" d="M361.856,676V929.748" transform="translate(1065.287 -438.226)" fill="none" stroke="#eff3f9" stroke-width="1"/>
+    <path id="Path_1052" data-name="Path 1052" d="M787.54,676V929.748" transform="translate(938.249 -437.535)" fill="none" stroke="#eff3f9" stroke-width="1"/>
+    <path id="Path_1144" data-name="Path 1144" d="M787.54,676V930.3" transform="translate(1050.249 -437.535)" fill="none" stroke="#eff3f9" stroke-width="1"/>
+    <text id="_20_12_2020_-_16_06_2021" data-name="20/12/2020 - 16/06/2021" transform="translate(1628 171)" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="0">20/12/2020 - 16/06/2021</tspan></text>
+    <text id="Present_Illness:" data-name="Present Illness:" transform="translate(408 535)" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="0">Present Illness:</tspan></text>
+    <text id="Blood_Presure_Model" data-name="Blood Presure Model" transform="translate(370 176)" font-size="24" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Blood Presure Model</tspan></text>
+    <g id="Group_21" data-name="Group 21" transform="translate(1806.289 153)">
+      <path id="Forward" d="M0,0,6.963,6.963,0,13.926" transform="translate(21.426 10.5) rotate(90)" fill="none" stroke="#14142b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <rect id="Rectangle_89" data-name="Rectangle 89" width="28" height="28" transform="translate(-0.289)" fill="none"/>
+    </g>
+    <path id="Rectangle_116" data-name="Rectangle 116" d="M5,0H17a5,5,0,0,1,5,5V68a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(436 424)" fill="#f48678"/>
+    <path id="Rectangle_119" data-name="Rectangle 119" d="M5,0H17a5,5,0,0,1,5,5V109a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(729 383)" fill="#f48678"/>
+    <path id="Rectangle_121" data-name="Rectangle 121" d="M5,0H17a5,5,0,0,1,5,5V146a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(1071 346)" fill="#f48678"/>
+    <path id="Rectangle_203" data-name="Rectangle 203" d="M5,0H17a5,5,0,0,1,5,5V146a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(989 346)" fill="#f48678"/>
+    <path id="Rectangle_204" data-name="Rectangle 204" d="M5,0H17a5,5,0,0,1,5,5V146a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(621 346)" fill="#f48678"/>
+    <path id="Rectangle_122" data-name="Rectangle 122" d="M5,0H17a5,5,0,0,1,5,5V109a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(1303 383)" fill="#f48678"/>
+    <path id="Rectangle_125" data-name="Rectangle 125" d="M5,0H17a5,5,0,0,1,5,5V46a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(1489 446)" fill="#f48678"/>
+    <path id="Rectangle_130" data-name="Rectangle 130" d="M5,0H17a5,5,0,0,1,5,5V54a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(856 438)" fill="#f48678"/>
+    <path id="Rectangle_128" data-name="Rectangle 128" d="M5,0H17a5,5,0,0,1,5,5V55a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(1148 437)" fill="#f48678"/>
+    <path id="Rectangle_127" data-name="Rectangle 127" d="M5,0H17a5,5,0,0,1,5,5V155a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(1763 337)" fill="#f48678"/>
+    <path id="Rectangle_117" data-name="Rectangle 117" d="M5,0H17a5,5,0,0,1,5,5V235a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(458 257)" fill="#d1c1f5"/>
+    <path id="Rectangle_118" data-name="Rectangle 118" d="M5,0H17a5,5,0,0,1,5,5V127a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(767 365)" fill="#d1c1f5"/>
+    <path id="Rectangle_120" data-name="Rectangle 120" d="M5,0H17a5,5,0,0,1,5,5V189a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(1109 303)" fill="#d1c1f5"/>
+    <path id="Rectangle_123" data-name="Rectangle 123" d="M5,0H17a5,5,0,0,1,5,5V122a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(1341 370)" fill="#d1c1f5"/>
+    <path id="Rectangle_124" data-name="Rectangle 124" d="M5,0H17a5,5,0,0,1,5,5V73a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(1528 419)" fill="#d1c1f5"/>
+    <path id="Rectangle_205" data-name="Rectangle 205" d="M5,0H17a5,5,0,0,1,5,5V73a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(1440 419)" fill="#d1c1f5"/>
+    <path id="Rectangle_131" data-name="Rectangle 131" d="M5,0H17a5,5,0,0,1,5,5V66a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(895 426)" fill="#d1c1f5"/>
+    <path id="Rectangle_129" data-name="Rectangle 129" d="M5,0H17a5,5,0,0,1,5,5V72a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(1187 420)" fill="#d1c1f5"/>
+    <path id="Rectangle_126" data-name="Rectangle 126" d="M5,0H17a5,5,0,0,1,5,5V183a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(1785 309)" fill="#d1c1f5"/>
+    <path id="Rectangle_202" data-name="Rectangle 202" d="M5,0H17a5,5,0,0,1,5,5V183a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(1704 309)" fill="#d1c1f5"/>
+    <path id="Path_1085" data-name="Path 1085" d="M503.75,676V827.269" transform="translate(577.65 -334.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1" stroke-dasharray="3"/>
+    <path id="Path_1225" data-name="Path 1225" d="M503.75,676V862.769" transform="translate(1292.686 -370)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1" stroke-dasharray="3"/>
+    <path id="Path_1134" data-name="Path 1134" d="M203.293,794.28h5.614" transform="translate(198.445 -301.78)" fill="none" stroke="#979797" stroke-width="1"/>
+    <path id="Path_1151" data-name="Path 1151" d="M203.293,794.28h5.614" transform="translate(198.445 -326.78)" fill="none" stroke="#979797" stroke-width="1"/>
+    <path id="Path_1152" data-name="Path 1152" d="M203.293,794.28h5.614" transform="translate(198.445 -351.78)" fill="none" stroke="#979797" stroke-width="1"/>
+    <path id="Path_1153" data-name="Path 1153" d="M203.293,794.28h5.614" transform="translate(198.445 -377.78)" fill="none" stroke="#979797" stroke-width="1"/>
+    <path id="Path_1154" data-name="Path 1154" d="M203.293,794.28h5.614" transform="translate(198.445 -402.78)" fill="none" stroke="#979797" stroke-width="1"/>
+    <path id="Path_1155" data-name="Path 1155" d="M203.293,794.28h5.614" transform="translate(198.445 -427.78)" fill="none" stroke="#979797" stroke-width="1"/>
+    <path id="Path_1156" data-name="Path 1156" d="M203.293,794.28h5.614" transform="translate(198.445 -452.78)" fill="none" stroke="#979797" stroke-width="1"/>
+    <path id="Path_1157" data-name="Path 1157" d="M203.293,794.28h5.614" transform="translate(198.445 -478.78)" fill="none" stroke="#979797" stroke-width="1"/>
+    <path id="Path_1158" data-name="Path 1158" d="M203.293,794.28h5.614" transform="translate(198.445 -503.78)" fill="none" stroke="#979797" stroke-width="1"/>
+    <path id="Path_1159" data-name="Path 1159" d="M203.293,794.28h5.614" transform="translate(198.445 -553.78)" fill="none" stroke="#979797" stroke-width="1"/>
+    <path id="Path_1226" data-name="Path 1226" d="M203.293,794.28h5.614" transform="translate(198.445 -528.78)" fill="none" stroke="#979797" stroke-width="1"/>
+    <text id="Probability" transform="translate(369 215)" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="0">Probability</tspan></text>
+    <text id="_90" data-name="90" transform="translate(377 265)" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="0">90</tspan></text>
+    <text id="_100" data-name="100" transform="translate(368 240)" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="0">100</tspan></text>
+    <text id="_0" data-name="0" transform="translate(386 493)" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="0">0</tspan></text>
+    <text id="_10" data-name="10" transform="translate(377 468)" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="0">10</tspan></text>
+    <text id="_20" data-name="20" transform="translate(377 442)" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="0">20</tspan></text>
+    <text id="_30" data-name="30" transform="translate(377 417)" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="0">30</tspan></text>
+    <text id="_40" data-name="40" transform="translate(377 392)" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="0">40</tspan></text>
+    <text id="_50" data-name="50" transform="translate(377 367)" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="0">50</tspan></text>
+    <text id="_60" data-name="60" transform="translate(377 341)" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="0">60</tspan></text>
+    <text id="_70" data-name="70" transform="translate(377 316)" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="0">70</tspan></text>
+    <text id="_80" data-name="80" transform="translate(377 291)" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="0">80</tspan></text>
+    <g id="Group_116" data-name="Group 116" transform="translate(977.209 228)">
+      <g transform="matrix(1, 0, 0, 1, -645.21, -113)" filter="url(#Rectangle_105)">
+        <rect id="Rectangle_105-3" data-name="Rectangle 105" width="220" height="123" rx="10" transform="translate(645 113)" fill="#fff" opacity="0.699"/>
+      </g>
+      <text id="preasure" transform="translate(114.9 59)" font-size="12" font-family="ArialMT, Arial"><tspan x="0" y="0">preasure</tspan></text>
+      <text id="_14:45_PM" data-name="14:45 PM" transform="translate(151.175 26.72)" font-size="12" font-family="ArialMT, Arial"><tspan x="0" y="0">14:45 PM</tspan></text>
+      <text id="_18_03.2020" data-name="18/03.2020" transform="translate(18.158 26.72)" font-size="12" font-family="ArialMT, Arial"><tspan x="0" y="0">18/03.2020</tspan></text>
+      <text id="_180_110" data-name="180/110" transform="translate(45.035 60)" font-size="16" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">180/110</tspan></text>
+      <text id="Pressure:_Normal" data-name="Pressure: Normal" transform="translate(18.158 86.541)" fill="#f48678" font-size="12" font-family="ArialMT, Arial"><tspan x="0" y="0" fill="#000">Pressure:</tspan><tspan y="0" fill="#f48678"> </tspan><tspan y="0" fill="#f48678" font-family="Arial-BoldMT, Arial" font-weight="700">Normal</tspan></text>
+      <text id="Present_Illness:_Stroke" data-name="Present Illness: Stroke" transform="translate(18.158 106.541)" font-size="12" font-family="ArialMT, Arial"><tspan x="0" y="0">Present Illness:</tspan><tspan y="0" fill="#f48678"> </tspan><tspan y="0" font-family="Arial-BoldMT, Arial" font-weight="700">Stroke</tspan></text>
+      <path id="fi_heart" d="M14.66,4.094a3.738,3.738,0,0,0-5.288,0l-.72.72-.72-.72A3.739,3.739,0,0,0,2.644,9.381l.72.72L8.652,15.39,13.94,10.1l.72-.72a3.738,3.738,0,0,0,0-5.288Z" transform="translate(16.414 45.002)" fill="#f48678"/>
+    </g>
+    <g id="Group_172" data-name="Group 172" transform="translate(1616.289 194)">
+      <g transform="matrix(1, 0, 0, 1, -1284.29, -79)" filter="url(#Rectangle_105-2)">
+        <rect id="Rectangle_105-4" data-name="Rectangle 105" width="220" height="124" rx="10" transform="translate(1284 79)" fill="#fff" opacity="0.699"/>
+      </g>
+      <text id="preasure-2" data-name="preasure" transform="translate(114.724 59)" font-size="12" font-family="ArialMT, Arial"><tspan x="0" y="0">preasure</tspan></text>
+      <text id="_14:45_PM-2" data-name="14:45 PM" transform="translate(151 26.72)" font-size="12" font-family="ArialMT, Arial"><tspan x="0" y="0">14:45 PM</tspan></text>
+      <text id="_18_03.2020-2" data-name="18/03.2020" transform="translate(17.983 26.72)" font-size="12" font-family="ArialMT, Arial"><tspan x="0" y="0">18/03.2020</tspan></text>
+      <text id="_180_110-2" data-name="180/110" transform="translate(44.859 60)" font-size="16" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">180/110</tspan></text>
+      <text id="Pressure:_High" data-name="Pressure: High" transform="translate(17.983 86.541)" fill="#a688ea" font-size="12" font-family="ArialMT, Arial"><tspan x="0" y="0" fill="#000">Pressure:</tspan><tspan y="0" fill="#f48678"> </tspan><tspan y="0" fill="#a688ea" font-family="Arial-BoldMT, Arial" font-weight="700">High</tspan></text>
+      <text id="Present_Illness:_Hyperlipidemia" data-name="Present Illness: Hyperlipidemia" transform="translate(17.787 106.541)" font-size="12" font-family="ArialMT, Arial"><tspan x="0" y="0">Present Illness:</tspan><tspan y="0" fill="#f48678"> </tspan><tspan y="0" font-family="Arial-BoldMT, Arial" font-weight="700">Hyperlipidemia</tspan></text>
+      <path id="fi_heart-2" data-name="fi_heart" d="M14.66,4.094a3.738,3.738,0,0,0-5.288,0l-.72.72-.72-.72A3.739,3.739,0,0,0,2.644,9.381l.72.72L8.652,15.39,13.94,10.1l.72-.72a3.738,3.738,0,0,0,0-5.288Z" transform="translate(16.239 45.002)" fill="#f48678"/>
+    </g>
+    <g id="Group_42" data-name="Group 42" transform="translate(704.53 512)">
+      <rect id="Rectangle_107" data-name="Rectangle 107" width="277" height="31" rx="12" transform="translate(0.47)" fill="#fcdad6"/>
+      <text id="Dissection_of_myocardial_infarction" data-name="Dissection of myocardial infarction" transform="translate(14.47 20)" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="0">Dissection of myocardial infarction</tspan></text>
+    </g>
+    <g id="Group_50" data-name="Group 50" transform="translate(534.421 513)">
+      <rect id="Rectangle_112" data-name="Rectangle 112" width="161" height="31" rx="12" transform="translate(-0.421)" fill="#ceeaeb"/>
+      <text id="Kidney_disfunction" data-name="Kidney disfunction" transform="translate(11.579 21)" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="0">Kidney disfunction</tspan></text>
+    </g>
+  </g>
+</svg>
